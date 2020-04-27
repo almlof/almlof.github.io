@@ -14,8 +14,8 @@ player = new YT.Player('YouTubeBackgroundVideoPlayer', {
         showinfo: 0,        // Hide the video title
         modestbranding: 1,  // Hide the Youtube Logo
         loop: 1,            // Run the video in a loop
-        fs: 0,              // Hide the full screen button
-        autohide: 0,         // Hide video controls when playing
+        fs: 1,              // Hide the full screen button
+        autohide: 1,         // Hide video controls when playing
         rel: 0,
         enablejsapi: 1
     },
